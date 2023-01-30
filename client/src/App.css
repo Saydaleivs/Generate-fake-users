@@ -1,0 +1,29 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#seed-input {
+  margin-right: 10px;
+  height: 30px;
+  width: 200px;
+  padding-left: 10px;
+}
+
+.generate-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: max-content;
+  margin: auto;
+}
